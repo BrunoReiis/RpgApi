@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ITzNe\\OneDrive\\Área de Trabalho\\Aplicativos\\Programações\\RpgApi\\RpgApi.csproj": {}
+    "D:\\3AI\\PAM\\091522\\RpgApi\\RpgApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ITzNe\\OneDrive\\Área de Trabalho\\Aplicativos\\Programações\\RpgApi\\RpgApi.csproj": {
+    "D:\\3AI\\PAM\\091522\\RpgApi\\RpgApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ITzNe\\OneDrive\\Área de Trabalho\\Aplicativos\\Programações\\RpgApi\\RpgApi.csproj",
+        "projectUniqueName": "D:\\3AI\\PAM\\091522\\RpgApi\\RpgApi.csproj",
         "projectName": "RpgApi",
-        "projectPath": "C:\\Users\\ITzNe\\OneDrive\\Área de Trabalho\\Aplicativos\\Programações\\RpgApi\\RpgApi.csproj",
-        "packagesPath": "C:\\Users\\ITzNe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ITzNe\\OneDrive\\Área de Trabalho\\Aplicativos\\Programações\\RpgApi\\obj\\",
+        "projectPath": "D:\\3AI\\PAM\\091522\\RpgApi\\RpgApi.csproj",
+        "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
+        "outputPath": "D:\\3AI\\PAM\\091522\\RpgApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ITzNe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\etechas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +43,16 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "microsoft.entityframeworkcore.design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "microsoft.entityframeworkcore.sqlserver": {
+              "target": "Package",
+              "version": "[6.0.9, )"
             }
           },
           "imports": [
@@ -49,8 +61,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -62,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
