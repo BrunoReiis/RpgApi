@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\3AI\\PAM\\091522\\RpgApi\\RpgApi.csproj": {}
+    "D:\\3AI\\PAM\\092222\\RpgApi\\RpgApi.csproj": {}
   },
   "projects": {
-    "D:\\3AI\\PAM\\091522\\RpgApi\\RpgApi.csproj": {
+    "D:\\3AI\\PAM\\092222\\RpgApi\\RpgApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3AI\\PAM\\091522\\RpgApi\\RpgApi.csproj",
+        "projectUniqueName": "D:\\3AI\\PAM\\092222\\RpgApi\\RpgApi.csproj",
         "projectName": "RpgApi",
-        "projectPath": "D:\\3AI\\PAM\\091522\\RpgApi\\RpgApi.csproj",
+        "projectPath": "D:\\3AI\\PAM\\092222\\RpgApi\\RpgApi.csproj",
         "packagesPath": "C:\\Users\\etechas\\.nuget\\packages\\",
-        "outputPath": "D:\\3AI\\PAM\\091522\\RpgApi\\obj\\",
+        "outputPath": "D:\\3AI\\PAM\\092222\\RpgApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\etechas\\AppData\\Roaming\\NuGet\\NuGet.Config",

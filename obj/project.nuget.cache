@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2RBr+srW9fHHT0cCpMDszAmNMMbKGxgcHyhrUroi30iZAprhS9I1G9k6L3cZBRLU6vdNKPghFalTijN/4ppexA==",
+  "dgSpecHash": "b6Nwn87EIDZSXZ52M7knywOU6elK2iLlJE4b5MD8ikhjmhwjoYhwlBwVDcxBHPwkvoxSvvdTs8QaQ4XESAVWkg==",
   "success": true,
-  "projectFilePath": "D:\\3AI\\PAM\\091522\\RpgApi\\RpgApi.csproj",
+  "projectFilePath": "D:\\3AI\\PAM\\092222\\RpgApi\\RpgApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\etechas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

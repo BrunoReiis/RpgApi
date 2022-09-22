@@ -1,0 +1,10 @@
+
+1. dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+2. dotnet tool install --global dotnet-ef
+
+3. dotnet add package Microsoft.EntityFrameworkCore.Design
+
+
+Comando para Atualizar a base:
+dotnet ef database update
