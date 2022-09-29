@@ -11,6 +11,7 @@ namespace RpgApi.Data
             
         }
 
+        public DbSet<Arma> Armas { get; set;}
         public DbSet<Personagem> Personagens { get; set;}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -24,6 +25,17 @@ namespace RpgApi.Data
                 new Personagem() { Id = 5, Nome = "Hobbit", PontosVida=100, Forca=20, Defesa=17, Inteligencia=31, Classe=ClasseEnum.Cavaleiro },
                 new Personagem() { Id = 6, Nome = "Celeborn", PontosVida=100, Forca=21, Defesa=13, Inteligencia=34, Classe=ClasseEnum.Clerigo },
                 new Personagem() { Id = 7, Nome = "Radagast", PontosVida=100, Forca=25, Defesa=11, Inteligencia=35, Classe=ClasseEnum.Mago }
+            );
+
+            modelBuilder.Entity<Arma>().HasData
+            (
+                new Arma() {Id = 1, Nome = "Cajado", Dano = 7},
+                new Arma() {Id = 2, Nome = "Espada de Ferro", Dano = 13},
+                new Arma() {Id = 3, Nome = "Espada Grande do Luar", Dano = 16},
+                new Arma() {Id = 4, Nome = "Arco", Dano = 15},
+                new Arma() {Id = 5, Nome = "Maça de Ferro", Dano = 17},
+                new Arma() {Id = 6, Nome = "Grande Machado do Demonio", Dano = 16},
+                new Arma() {Id = 7, Nome = "Arma do ADM", Dano = 999}
             );
         }
 

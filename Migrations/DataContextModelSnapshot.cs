@@ -21,6 +21,70 @@ namespace RpgApi.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("RpgApi.Models.Arma", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("Dano")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Armas");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Dano = 7,
+                            Nome = "Cajado"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Dano = 13,
+                            Nome = "Espada de Ferro"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Dano = 16,
+                            Nome = "Espada Grande do Luar"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Dano = 15,
+                            Nome = "Arco"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Dano = 17,
+                            Nome = "Maça de Ferro"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Dano = 16,
+                            Nome = "Grande Machado do Demonio"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Dano = 999,
+                            Nome = "Arma do ADM"
+                        });
+                });
+
             modelBuilder.Entity("RpgApi.Models.Personagem", b =>
                 {
                     b.Property<int>("Id")
